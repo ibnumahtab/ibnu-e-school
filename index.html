@@ -17,6 +17,8 @@
 	<link rel="shortcut icon" type="image/x-icon" href="./assets/images/">
 	<!-- Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,14 +27,14 @@
 	<link rel="stylesheet" type="text/css" href="./styles/style.css" media="all" />
 </head>
 
-<body style="font-family: 'Poppins', sans-serif;">
+<body style="font-family: 'Poppins', sans-serif; background-color: #f8fffb;">
 
 	<!-- =========== Header Section Starts =========== -->
 	<header id="header-section" style="background-color: #f0fff0;">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container-fluid">
-					<a class="navbar-brand w-25" href="#">
+					<a class="navbar-brand w-25 pt-4" href="#">
 						<img class="img-fluid" src="assets/images/icons/Logo.png" alt="" width="30" height="24">
 					</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -88,7 +90,7 @@
 		<section id="highlight-section" class="py-5">
 			<div class="container">
 				<div class="row">
-					<div style="background-color: #f8fffb;" class="col shadow rounded py-4 text-center mx-3">
+					<div class="col shadow bg-body rounded py-4 text-center mx-3">
 						<div class="highlight-image py-4">
 							<img class="img-fluid w-25" src="assets/images/icons/book.png" alt="Ibnu School Topic Book">
 						</div>
@@ -97,7 +99,7 @@
 							<p class="text-secondary">Learn Anythings</p>
 						</div>
 					</div>
-					<div style="background-color: #f8fffb;" class="col shadow rounded py-4 text-center mx-3">
+					<div class="col shadow bg-body rounded py-4 text-center mx-3">
 						<div class="highlight-image py-4">
 							<img class="img-fluid w-25" src="assets/images/icons/Student.png"
 								alt="Ibnu School 1800+ Students">
@@ -107,7 +109,7 @@
 							<p class="text-secondary">Learn Anythings</p>
 						</div>
 					</div>
-					<div style="background-color: #f8fffb;" class="col shadow rounded py-4 text-center mx-3">
+					<div class="col shadow bg-body rounded py-4 text-center mx-3">
 						<div class="highlight-image py-4">
 							<img class="img-fluid w-25" src="assets/images/icons/Test.png"
 								alt="Ibnu School 9K+ Test Token">
@@ -117,7 +119,7 @@
 							<p class="text-secondary">Learn Anythings</p>
 						</div>
 					</div>
-					<div style="background-color: #f8fffb;" class="col shadow rounded py-4 text-center mx-3">
+					<div class="col shadow bg-body rounded py-4 text-center mx-3">
 						<div class="highlight-image py-4">
 							<img class="img-fluid w-25" src="assets/images/icons/Students.png"
 								alt="Ibnu School 2000+ Student">
@@ -135,35 +137,74 @@
 		<!-- Course Section Starts -->
 		<section id="online-courses" class="py-5">
 			<div class="container">
-				<h1 class="mb-3 fw-bold fs-2 text-center">Online Courses</h1>
-				<div class="courses">
-					<div class="card-group">
-						<div class="card">
-							<img class="card-img-top" src="..." alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a wider card with supporting text below as a natural
-									lead-in to additional content. This content is a little bit longer.</p>
-								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				<h1 class="mb-5 fw-bold fs-2 text-center">Online Courses</h1>
+				<div class="courses d-flex justify-content-evenly">
+					<div class="card p-3 shadow border-0" style="width: 22rem;">
+						<img src="assets/images/Morder pyschology.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title fw-bold">Modern Psychology</h5>
+							<p class="card-text text-secondary">Some quick example text to build on the card title and
+								make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-success px-4 rounded-pill">Bye Course</a>
+						</div>
+						<div class="d-flex justify-content-between mt-3 px-3 pb-2">
+							<div class="start-date">
+								<small class="text-secondary">
+									<i class="bi bi-calendar2-check"></i>
+									<span class="ms-1">Start 18 July, 2021</span>
+								</small>
+							</div>
+							<div class="available-sits">
+								<small class="text-secondary">
+									<i class="bi bi-people-fill"></i>
+									<span class="ms-1">60 Seats</span>
+								</small>
 							</div>
 						</div>
-						<div class="card">
-							<img class="card-img-top" src="..." alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This card has supporting text below as a natural lead-in to
-									additional content.</p>
-								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+					<div class="card p-3 shadow border-0" style="width: 22rem;">
+						<img src="assets/images/Morder psyc.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title fw-bold">Modern Psychology</h5>
+							<p class="card-text text-secondary">Some quick example text to build on the card title and
+								make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-success px-4 rounded-pill">Bye Course</a>
+						</div>
+						<div class="d-flex justify-content-between mt-3 px-3 pb-2">
+							<div class="start-date">
+								<small class="text-secondary">
+									<i class="bi bi-calendar2-check"></i>
+									<span class="ms-1">Start 18 July, 2021</span>
+								</small>
+							</div>
+							<div class="available-sits">
+								<small class="text-secondary">
+									<i class="bi bi-people-fill"></i>
+									<span class="ms-1">60 Seats</span>
+								</small>
 							</div>
 						</div>
-						<div class="card">
-							<img class="card-img-top" src="..." alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a wider card with supporting text below as a natural
-									lead-in to additional content. This card has even longer content than the first to
-									show that equal height action.</p>
-								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+					<div class="card p-3 shadow border-0" style="width: 22rem;">
+						<img src="assets/images/Morder pychons.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title fw-bold">Modern Psychology</h5>
+							<p class="card-text text-secondary">Some quick example text to build on the card title and
+								make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-success px-4 rounded-pill">Bye Course</a>
+						</div>
+						<div class="d-flex justify-content-between mt-3 px-3 pb-2">
+							<div class="start-date">
+								<small class="text-secondary">
+									<i class="bi bi-calendar2-check"></i>
+									<span class="ms-1">Start 18 July, 2021</span>
+								</small>
+							</div>
+							<div class="available-sits">
+								<small class="text-secondary">
+									<i class="bi bi-people-fill"></i>
+									<span class="ms-1">60 Seats</span>
+								</small>
 							</div>
 						</div>
 					</div>
